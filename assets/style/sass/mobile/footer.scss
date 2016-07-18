@@ -1,0 +1,36 @@
+footer{
+    clear: both;
+    position: relative;
+    width: 100%;
+    height: 70px !important;
+    /*text-align: center;*/
+/*    background:{
+        image: url(../style/images/bg-footer.jpg);
+        repeat: no-repeat;
+        size: cover;
+    }*/
+    >img{
+        /*display: none;*/
+        width: 120px;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+
+    /*MIDIAS SOCIAIS*/
+    nav{
+        display: block;
+        position: absolute;
+        top: -18px;
+        right: 7px;
+        ul{
+            li{
+                display: inline;
+                margin: 0 1px;
+                
+                img{
+                    width: 25px;
+                }
+            }
+        }
+    }
+}

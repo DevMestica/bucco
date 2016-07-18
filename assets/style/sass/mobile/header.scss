@@ -1,0 +1,167 @@
+$dourado : rgba(196, 154, 108, 1);
+$marrom: rgba(121, 46, 46, 1);
+
+header{
+    padding: 15px 0;
+    height: 100px;
+    position: absolute;
+/*    z-index: 5;
+    border-bottom: $dourado solid 10px;*/
+
+    article{
+        width: 95%;
+        padding: 0 5px;
+        margin: auto;
+        position: relative;
+
+        div{
+            display: inherit;
+
+            ul{
+
+                &:first-child{
+                    li{
+                        margin:{
+                            bottom: 7px;
+                        }
+                        padding: {
+                            left: 40px;
+                        }
+                        background: {
+                            image: url(images/bullet.png);
+                            repeat: no-repeat;
+                            position: left center;
+                            size: 20px;
+                        }
+                    }
+                }
+                li{
+                    display:block;
+                }
+            }
+
+            /*MENU MOBILE*/
+            &:first-child{
+                display: block;
+                width: 40px;
+                position: relative;
+                cursor: pointer;
+                padding:{
+                    top: 35px;
+                    left: 30px;
+                }
+            }
+
+            /*LOGO BUCCO*/
+            &:nth-child(2){
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: -1;
+                width: 100%;
+
+                img{
+                    width: 100px;
+                }
+            }
+
+            /*NAVEGADOR SITE*/
+            &:nth-child(3){
+                display: none;
+                /*width: 90%;*/
+                background: url(images/over-header.png) repeat-y ;
+                color: $dourado;
+                padding: 20px 0;
+                font:{
+                    family: Nephrite-Book;
+                    size: 28.38px;
+                }                
+                text-transform: uppercase;
+                border-right: none;
+
+                li{
+                    cursor: pointer;
+                    margin: 0 15px;
+
+                    &:hover{
+                        color: #FFF;
+                    }
+                }
+            }
+            /*CADASTRO*/
+            &:nth-child(4){
+                display: none;
+                width: 90%;
+                background: url(images/over-header.png) repeat-y ;
+                color: #FFF;
+                padding-bottom: 10px;
+
+                p{
+                    text-transform: uppercase;
+                    font:{
+                        family: Nephrite-Book;
+                        size: 25.76px;
+                    }
+                    margin:{
+                        bottom: 5px;
+                        left: 10px;
+                    }
+                }
+
+
+
+                form{
+
+
+                    li{
+                        background: none;
+                        padding: 0;
+                    }
+                    input{
+                        width: 245px;
+                        color: #FFF;
+                        line-height: 1.2em;
+                        padding: 6px 8px;
+                        border: #FFF thin solid;
+                        background: transparent;
+                        border-radius: 5px;
+                        margin:{
+                            bottom: 5px;
+                            left: 10px;
+                        }
+                        font:{
+                            family: Nephrite-Italic;
+                            size: 20px;
+                        }
+                    }
+                    input[type='submit']{
+                        width: 150px;
+                        text-align: center;
+                        color: $marrom;
+                        border: none;
+                        border-radius: 5px;
+                        background: $dourado;
+                        font:{
+                            family: Nephrite-Bold;
+                            size: 20px;
+                        }
+
+                        &:hover{
+                            background: #FFF;
+                        }
+                    }
+                }
+            }            
+        }
+
+        /*MIDIAS SOCIAIS*/
+        #nav-social{
+            display: none;
+            ul{
+                li{
+                    margin: 0 1px;
+                }
+            }
+        }
+    }
+}

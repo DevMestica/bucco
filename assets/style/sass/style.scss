@@ -1,0 +1,13 @@
+
+
+@import "mobile/default.scss";
+@import "mobile/fonts.scss";
+@import "header.scss";
+@import "content.scss";
+@import "footer.scss";
+
+@media only screen and (max-width: 400px){
+    @import "mobile/mobile.scss";
+}
+
+@import "mobile/action.scss";

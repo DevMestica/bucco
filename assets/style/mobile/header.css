@@ -1,0 +1,137 @@
+/* line 4, ../sass/mobile/header.scss */
+header {
+  padding: 15px 0;
+  height: 100px;
+  position: absolute;
+  /*    z-index: 5;
+      border-bottom: $dourado solid 10px;*/
+}
+/* line 11, ../sass/mobile/header.scss */
+header article {
+  width: 95%;
+  padding: 0 5px;
+  margin: auto;
+  position: relative;
+  /*MIDIAS SOCIAIS*/
+}
+/* line 17, ../sass/mobile/header.scss */
+header article div {
+  display: inherit;
+  /*MENU MOBILE*/
+  /*LOGO BUCCO*/
+  /*NAVEGADOR SITE*/
+  /*CADASTRO*/
+}
+/* line 23, ../sass/mobile/header.scss */
+header article div ul:first-child li {
+  margin-bottom: 7px;
+  padding-left: 40px;
+  background-image: url(images/bullet.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px;
+}
+/* line 38, ../sass/mobile/header.scss */
+header article div ul li {
+  display: block;
+}
+/* line 44, ../sass/mobile/header.scss */
+header article div:first-child {
+  display: block;
+  width: 40px;
+  position: relative;
+  cursor: pointer;
+  padding-top: 35px;
+  padding-left: 30px;
+}
+/* line 56, ../sass/mobile/header.scss */
+header article div:nth-child(2) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+}
+/* line 63, ../sass/mobile/header.scss */
+header article div:nth-child(2) img {
+  width: 100px;
+}
+/* line 69, ../sass/mobile/header.scss */
+header article div:nth-child(3) {
+  display: none;
+  /*width: 90%;*/
+  background: url(images/over-header.png) repeat-y;
+  color: #c49a6c;
+  padding: 20px 0;
+  font-family: Nephrite-Book;
+  font-size: 28.38px;
+  text-transform: uppercase;
+  border-right: none;
+}
+/* line 82, ../sass/mobile/header.scss */
+header article div:nth-child(3) li {
+  cursor: pointer;
+  margin: 0 15px;
+}
+/* line 86, ../sass/mobile/header.scss */
+header article div:nth-child(3) li:hover {
+  color: #FFF;
+}
+/* line 92, ../sass/mobile/header.scss */
+header article div:nth-child(4) {
+  display: none;
+  width: 90%;
+  background: url(images/over-header.png) repeat-y;
+  color: #FFF;
+  padding-bottom: 10px;
+}
+/* line 99, ../sass/mobile/header.scss */
+header article div:nth-child(4) p {
+  text-transform: uppercase;
+  font-family: Nephrite-Book;
+  font-size: 25.76px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+/* line 116, ../sass/mobile/header.scss */
+header article div:nth-child(4) form li {
+  background: none;
+  padding: 0;
+}
+/* line 120, ../sass/mobile/header.scss */
+header article div:nth-child(4) form input {
+  width: 245px;
+  color: #FFF;
+  line-height: 1.2em;
+  padding: 6px 8px;
+  border: #FFF thin solid;
+  background: transparent;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  font-family: Nephrite-Italic;
+  font-size: 20px;
+}
+/* line 137, ../sass/mobile/header.scss */
+header article div:nth-child(4) form input[type='submit'] {
+  width: 150px;
+  text-align: center;
+  color: #792e2e;
+  border: none;
+  border-radius: 5px;
+  background: #c49a6c;
+  font-family: Nephrite-Bold;
+  font-size: 20px;
+}
+/* line 149, ../sass/mobile/header.scss */
+header article div:nth-child(4) form input[type='submit']:hover {
+  background: #FFF;
+}
+/* line 158, ../sass/mobile/header.scss */
+header article #nav-social {
+  display: none;
+}
+/* line 161, ../sass/mobile/header.scss */
+header article #nav-social ul li {
+  margin: 0 1px;
+}

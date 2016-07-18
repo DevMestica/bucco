@@ -1,0 +1,17 @@
+/* line 1, sass/footer.scss */
+footer {
+  height: 170px;
+  text-align: center;
+  background-image: url(../style/images/bg-footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 10, sass/footer.scss */
+footer img {
+  margin-top: 40px;
+  cursor: pointer;
+}
+/* line 14, sass/footer.scss */
+footer nav {
+  display: none;
+}
