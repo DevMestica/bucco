@@ -549,17 +549,17 @@ section article {
 }
 /* line 437, sass/content.scss */
 #section_cinco > div:first-child ul li:first-child {
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.3);
   /*background: rgba( 0, 0, 0, 1);*/
 }
 /* line 442, sass/content.scss */
 #section_cinco > div:first-child ul li:nth-child(2) {
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
   /*background: rgba( 0, 0, 0, 1);*/
 }
 /* line 447, sass/content.scss */
 #section_cinco > div:first-child ul li:last-child {
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
   /*background: rgba( 0, 0, 0, 1);*/
 }
 /* line 452, sass/content.scss */
@@ -615,7 +615,7 @@ section article {
 }
 /* line 521, sass/content.scss */
 #section_cinco #masc-block {
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.4);
   width: 50%;
   height: 640px;
   position: absolute;
@@ -1144,17 +1144,17 @@ footer nav {
   }
   /* line 397, sass/mobile/content_mob.scss */
   #section_cinco > div:first-child ul li:first-child {
-    background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0.3);
     /*background: rgba( 0, 0, 0, 1);*/
   }
   /* line 402, sass/mobile/content_mob.scss */
   #section_cinco > div:first-child ul li:nth-child(2) {
-    background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
     /*background: rgba( 0, 0, 0, 1);*/
   }
   /* line 407, sass/mobile/content_mob.scss */
   #section_cinco > div:first-child ul li:last-child {
-    background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
     /*background: rgba( 0, 0, 0, 1);*/
   }
   /* line 412, sass/mobile/content_mob.scss */
@@ -1211,7 +1211,8 @@ footer nav {
 
   /* line 482, sass/mobile/content_mob.scss */
   #masc-block {
-    display: none;
+    width: 100% !important;
+    height: 320px !important;
   }
 
   /* line 1, sass/mobile/footer.scss */
