@@ -315,13 +315,12 @@ sliderhome {
   color: #FFF;
 }
 /* line 351, ../sass/mobile/content_mob.scss */
-#section_quatro article div:last-child {
-  /*float: left;*/
-  display: none;
+#section_quatro article div:first-child {
+  float: left;
 }
 
 /*CONTATO*/
-/* line 361, ../sass/mobile/content_mob.scss */
+/* line 360, ../sass/mobile/content_mob.scss */
 #section_cinco {
   height: auto !important;
   width: 100%;
@@ -330,7 +329,7 @@ sliderhome {
   background-position: top;
   font-family: Roboto Light;
 }
-/* line 373, ../sass/mobile/content_mob.scss */
+/* line 372, ../sass/mobile/content_mob.scss */
 #section_cinco > div {
   width: 100%;
   height: 640px !important;
@@ -338,7 +337,7 @@ sliderhome {
   /*INFORMAÇÕES*/
   /*MAPS*/
 }
-/* line 379, ../sass/mobile/content_mob.scss */
+/* line 378, ../sass/mobile/content_mob.scss */
 #section_cinco > div:first-child {
   float: none;
   position: relative;
@@ -346,34 +345,34 @@ sliderhome {
   background-repeat: no-repeat;
   background-position: top;
 }
-/* line 388, ../sass/mobile/content_mob.scss */
+/* line 387, ../sass/mobile/content_mob.scss */
 #section_cinco > div:first-child ul {
   height: auto;
   /*float: none;*/
 }
-/* line 392, ../sass/mobile/content_mob.scss */
+/* line 391, ../sass/mobile/content_mob.scss */
 #section_cinco > div:first-child ul li {
   height: 25%;
   padding-top: 15%;
   color: #FFF;
   /*text-align: center;*/
 }
-/* line 399, ../sass/mobile/content_mob.scss */
+/* line 398, ../sass/mobile/content_mob.scss */
 #section_cinco > div:first-child ul li:first-child {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0);
   /*background: rgba( 0, 0, 0, 1);*/
 }
-/* line 404, ../sass/mobile/content_mob.scss */
+/* line 403, ../sass/mobile/content_mob.scss */
 #section_cinco > div:first-child ul li:nth-child(2) {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0);
   /*background: rgba( 0, 0, 0, 1);*/
 }
-/* line 409, ../sass/mobile/content_mob.scss */
+/* line 408, ../sass/mobile/content_mob.scss */
 #section_cinco > div:first-child ul li:last-child {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0);
   /*background: rgba( 0, 0, 0, 1);*/
 }
-/* line 414, ../sass/mobile/content_mob.scss */
+/* line 413, ../sass/mobile/content_mob.scss */
 #section_cinco > div:first-child ul li h1 {
   margin-bottom: 10px;
   background-image: url(../style/images/borda.png);
@@ -385,18 +384,18 @@ sliderhome {
   text-align: center;
   font-family: Roboto Bold;
 }
-/* line 433, ../sass/mobile/content_mob.scss */
+/* line 432, ../sass/mobile/content_mob.scss */
 #section_cinco > div:first-child ul li p {
   margin-left: 70px;
   padding-left: 50px;
 }
-/* line 439, ../sass/mobile/content_mob.scss */
+/* line 438, ../sass/mobile/content_mob.scss */
 #section_cinco > div:first-child ul li #cont {
   background-image: url(../style/images/contato.png);
   background-repeat: no-repeat;
   line-height: 2em;
 }
-/* line 447, ../sass/mobile/content_mob.scss */
+/* line 446, ../sass/mobile/content_mob.scss */
 #section_cinco > div:first-child ul li #tel {
   background-image: url(../style/images/cel.png);
   background-repeat: no-repeat;
@@ -404,7 +403,7 @@ sliderhome {
   padding-left: 65px;
   margin-left: 80px;
 }
-/* line 457, ../sass/mobile/content_mob.scss */
+/* line 456, ../sass/mobile/content_mob.scss */
 #section_cinco > div:first-child ul li #end {
   background-image: url(../style/images/position.png);
   background-repeat: no-repeat;
@@ -414,18 +413,18 @@ sliderhome {
   padding-top: 7px;
   margin-left: 70px;
 }
-/* line 473, ../sass/mobile/content_mob.scss */
+/* line 472, ../sass/mobile/content_mob.scss */
 #section_cinco > div:nth-child(2) {
   height: 320px !important;
   background: #AAA;
 }
-/* line 476, ../sass/mobile/content_mob.scss */
+/* line 475, ../sass/mobile/content_mob.scss */
 #section_cinco > div:nth-child(2) iframe {
   width: 100%;
   height: 100%;
 }
 
-/* line 484, ../sass/mobile/content_mob.scss */
+/* line 483, ../sass/mobile/content_mob.scss */
 #masc-block {
   display: none;
   width: 100% !important;

@@ -348,9 +348,8 @@ sliderhome{
                 }
             }
 
-            &:last-child{
-                /*float: left;*/
-                display: none;
+            &:first-child{
+                float: left;
             }
         }
     }

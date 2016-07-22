@@ -256,7 +256,13 @@ section article {
   /*background: #AAA;*/
   text-align: right;
 }
-/* line 84, sass/content.scss */
+/* line 83, sass/content.scss */
+#section_dois article div:first-child img[title="QUADRO"] {
+  -ms-transform: rotate(-8deg);
+  -webkit-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+/* line 90, sass/content.scss */
 #section_dois article div:last-child {
   width: 600px;
   /*background: #FCA;*/
@@ -268,7 +274,7 @@ section article {
   -webkit-transform: rotate(4deg);
   transform: rotate(4deg);
 }
-/* line 96, sass/content.scss */
+/* line 102, sass/content.scss */
 #section_dois article div:last-child h1 {
   width: 80%;
   min-width: 500px;
@@ -278,7 +284,7 @@ section article {
   color: #c49a6c;
   text-transform: uppercase;
 }
-/* line 108, sass/content.scss */
+/* line 114, sass/content.scss */
 #section_dois article div:last-child p {
   width: 80%;
   min-width: 500px;
@@ -287,12 +293,12 @@ section article {
   font-size: 1.4em;
   margin-top: 20px;
 }
-/* line 119, sass/content.scss */
+/* line 125, sass/content.scss */
 #section_dois article div:last-child .pgf-meio {
   min-width: auto;
   width: 45% !important;
 }
-/* line 124, sass/content.scss */
+/* line 130, sass/content.scss */
 #section_dois article div:last-child > img {
   opacity: 0;
   width: 550px;
@@ -302,18 +308,18 @@ section article {
 }
 
 /*Cardápio*/
-/* line 137, sass/content.scss */
+/* line 143, sass/content.scss */
 #section_tres {
   background-image: url(../style/images/bg-cardapio.jpg);
   background-repeat: no-repeat;
   background-position: center top;
 }
-/* line 144, sass/content.scss */
+/* line 150, sass/content.scss */
 #section_tres article {
   color: #FFF;
   padding: 5% 0;
 }
-/* line 148, sass/content.scss */
+/* line 154, sass/content.scss */
 #section_tres article > div {
   margin-left: 40%;
   width: 70%;
@@ -321,7 +327,7 @@ section article {
   -webkit-transform: rotate(5deg);
   transform: rotate(5deg);
 }
-/* line 155, sass/content.scss */
+/* line 161, sass/content.scss */
 #section_tres article > div:last-child {
   /*background: #FCA;*/
   position: relative;
@@ -332,21 +338,21 @@ section article {
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
 }
-/* line 167, sass/content.scss */
+/* line 173, sass/content.scss */
 #section_tres article > div:last-child img:last-child {
   position: absolute;
   right: 0;
 }
-/* line 174, sass/content.scss */
+/* line 180, sass/content.scss */
 #section_tres article > div h1 {
   font-family: Silent-Regular;
   cursor: pointer;
 }
-/* line 180, sass/content.scss */
+/* line 186, sass/content.scss */
 #section_tres article > div h1:hover {
   color: #c49a6c;
 }
-/* line 185, sass/content.scss */
+/* line 191, sass/content.scss */
 #section_tres article > div ul {
   margin-top: -50px;
   width: 48%;
@@ -355,7 +361,7 @@ section article {
   margin-left: 0.5%;
   border-left: #FFF solid thin;
 }
-/* line 196, sass/content.scss */
+/* line 202, sass/content.scss */
 #section_tres article > div ul li {
   position: relative;
   font-family: Roboto Italic;
@@ -365,7 +371,7 @@ section article {
   background-repeat: no-repeat;
   background-position: left center;
 }
-/* line 211, sass/content.scss */
+/* line 217, sass/content.scss */
 #section_tres article > div ul li h2 {
   color: #c49a6c;
   text-transform: uppercase;
@@ -373,43 +379,43 @@ section article {
   font-family: Roboto Bold;
   font-size: 1.2em;
 }
-/* line 225, sass/content.scss */
+/* line 231, sass/content.scss */
 #section_tres #pasta {
   width: 60%;
   padding-left: 2%;
 }
-/* line 229, sass/content.scss */
+/* line 235, sass/content.scss */
 #section_tres #pasta h1 {
   font-size: 6em;
 }
-/* line 234, sass/content.scss */
+/* line 240, sass/content.scss */
 #section_tres #pasta ul {
   padding-top: 5%;
   display: none;
 }
-/* line 240, sass/content.scss */
+/* line 246, sass/content.scss */
 #section_tres #burger {
   width: 60%;
   padding-left: 5%;
 }
-/* line 243, sass/content.scss */
+/* line 249, sass/content.scss */
 #section_tres #burger h1 {
   font-size: 10em;
 }
-/* line 249, sass/content.scss */
+/* line 255, sass/content.scss */
 #section_tres #burger ul {
   display: none;
 }
-/* line 254, sass/content.scss */
+/* line 260, sass/content.scss */
 #section_tres #grill {
   margin-left: 35%;
   margin-top: -1%;
 }
-/* line 257, sass/content.scss */
+/* line 263, sass/content.scss */
 #section_tres #grill h1 {
   font-size: 8em;
 }
-/* line 263, sass/content.scss */
+/* line 269, sass/content.scss */
 #section_tres #grill div {
   display: none;
   margin-left: 0.5%;
@@ -417,24 +423,24 @@ section article {
   padding-top: 3%;
   border-left: #FFF solid thin;
 }
-/* line 270, sass/content.scss */
+/* line 276, sass/content.scss */
 #section_tres #grill div ul {
   display: inline-table;
   border: none;
 }
 
-/* line 278, sass/content.scss */
+/* line 284, sass/content.scss */
 .disable {
   display: none;
 }
 
-/* line 282, sass/content.scss */
+/* line 288, sass/content.scss */
 .table {
   display: inline-table;
 }
 
 /*PARCEIROS*/
-/* line 288, sass/content.scss */
+/* line 294, sass/content.scss */
 #section_quatro {
   height: 680px;
   /*height: 100vh;*/
@@ -443,21 +449,23 @@ section article {
   background-position: center 75%;
   background-size: cover;
 }
-/* line 298, sass/content.scss */
+/* line 304, sass/content.scss */
 #section_quatro article {
   vertical-align: central;
   width: 960px;
 }
-/* line 302, sass/content.scss */
+/* line 308, sass/content.scss */
 #section_quatro article div {
+  /*width: 30%;*/
   width: 30%;
+  margin-left: 25%;
   display: inline-table;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 5%;
   padding-bottom: 5%;
 }
-/* line 312, sass/content.scss */
+/* line 320, sass/content.scss */
 #section_quatro article div h1 {
   -ms-transform: rotate(-15deg);
   /* IE 9 */
@@ -475,7 +483,7 @@ section article {
   font-family: Silent-Regular;
   font-size: 3.5em;
 }
-/* line 334, sass/content.scss */
+/* line 342, sass/content.scss */
 #section_quatro article div p {
   color: #FFF;
   line-height: 0.8em;
@@ -483,15 +491,15 @@ section article {
   font-family: Volvo-Regular;
   font-size: 3em;
 }
-/* line 345, sass/content.scss */
+/* line 353, sass/content.scss */
 #section_quatro article div p span {
   color: #c49a6c;
 }
-/* line 350, sass/content.scss */
+/* line 358, sass/content.scss */
 #section_quatro article div form {
   margin-top: 10px;
 }
-/* line 353, sass/content.scss */
+/* line 361, sass/content.scss */
 #section_quatro article div form input[type='tel'], #section_quatro article div form input[type='email'] {
   width: 80%;
   padding: 0px 10px;
@@ -499,7 +507,7 @@ section article {
   font-family: Roboto Light;
   font-size: 1.2em;
 }
-/* line 363, sass/content.scss */
+/* line 371, sass/content.scss */
 #section_quatro article div form input[type='submit'] {
   padding: 0px 10px;
   height: 2.5em;
@@ -510,17 +518,18 @@ section article {
   font-family: Roboto Bold;
   font-size: 1.2em;
 }
-/* line 379, sass/content.scss */
+/* line 387, sass/content.scss */
 #section_quatro article div form input[type='submit']:hover {
   color: #FFF;
 }
-/* line 385, sass/content.scss */
-#section_quatro article div:first-child {
-  float: left;
+/* line 393, sass/content.scss */
+#section_quatro article div:last-child {
+  /*float: left;*/
+  display: none;
 }
 
 /*CONTATO*/
-/* line 394, sass/content.scss */
+/* line 403, sass/content.scss */
 #section_cinco {
   height: 640px;
   margin-bottom: 15px;
@@ -530,14 +539,14 @@ section article {
   background-position: top;
   font-family: Roboto Light;
 }
-/* line 409, sass/content.scss */
+/* line 418, sass/content.scss */
 #section_cinco > div {
   width: 50%;
   display: inline-block;
   /*INFORMAÇÕES*/
   /*MAPS*/
 }
-/* line 414, sass/content.scss */
+/* line 423, sass/content.scss */
 #section_cinco > div:first-child {
   position: relative;
   float: left;
@@ -545,7 +554,7 @@ section article {
   background-repeat: no-repeat;
   background-position: top;
 }
-/* line 423, sass/content.scss */
+/* line 432, sass/content.scss */
 #section_cinco > div:first-child ul {
   width: 400px;
   height: 640px;
@@ -553,28 +562,28 @@ section article {
                   right: 0;*/
   float: right;
 }
-/* line 431, sass/content.scss */
+/* line 440, sass/content.scss */
 #section_cinco > div:first-child ul li {
   padding: 13.6% 0 13.5% 0;
   color: #FFF;
   /*text-align: center;*/
 }
-/* line 437, sass/content.scss */
+/* line 446, sass/content.scss */
 #section_cinco > div:first-child ul li:first-child {
-  background: rgba(0, 0, 0, 0);
-  /*background: rgba( 0, 0, 0, 1);*/
+  background: rgba(0, 0, 0, 0.4);
+  /*background: rgba( 0, 0, 0, 0.4);*/
 }
-/* line 442, sass/content.scss */
+/* line 451, sass/content.scss */
 #section_cinco > div:first-child ul li:nth-child(2) {
-  background: rgba(0, 0, 0, 0);
-  /*background: rgba( 0, 0, 0, 1);*/
+  background: rgba(0, 0, 0, 0.6);
+  /*background: rgba( 0, 0, 0, 0.6);*/
 }
-/* line 447, sass/content.scss */
+/* line 456, sass/content.scss */
 #section_cinco > div:first-child ul li:last-child {
-  background: rgba(0, 0, 0, 0);
-  /*background: rgba( 0, 0, 0, 1);*/
+  background: rgba(0, 0, 0, 0.8);
+  /*background: rgba( 0, 0, 0, 0.8);*/
 }
-/* line 452, sass/content.scss */
+/* line 461, sass/content.scss */
 #section_cinco > div:first-child ul li h1 {
   margin-bottom: 10px;
   background-image: url(../style/images/borda.png);
@@ -586,18 +595,18 @@ section article {
   text-align: center;
   font-family: Roboto Bold;
 }
-/* line 471, sass/content.scss */
+/* line 480, sass/content.scss */
 #section_cinco > div:first-child ul li p {
   margin-left: 70px;
   padding-left: 50px;
 }
-/* line 477, sass/content.scss */
+/* line 486, sass/content.scss */
 #section_cinco > div:first-child ul li #cont {
   background-image: url(../style/images/contato.png);
   background-repeat: no-repeat;
   line-height: 2em;
 }
-/* line 485, sass/content.scss */
+/* line 494, sass/content.scss */
 #section_cinco > div:first-child ul li #tel {
   background-image: url(../style/images/cel.png);
   background-repeat: no-repeat;
@@ -605,7 +614,7 @@ section article {
   padding-left: 65px;
   margin-left: 80px;
 }
-/* line 495, sass/content.scss */
+/* line 504, sass/content.scss */
 #section_cinco > div:first-child ul li #end {
   background-image: url(../style/images/position.png);
   background-repeat: no-repeat;
@@ -615,26 +624,27 @@ section article {
   padding-top: 7px;
   margin-left: 70px;
 }
-/* line 511, sass/content.scss */
+/* line 520, sass/content.scss */
 #section_cinco > div:nth-child(2) {
   height: 100%;
   background: #AAA;
 }
-/* line 514, sass/content.scss */
+/* line 523, sass/content.scss */
 #section_cinco > div:nth-child(2) iframe {
   width: 100%;
   height: 100%;
 }
-/* line 521, sass/content.scss */
+/* line 530, sass/content.scss */
 #section_cinco #masc-block {
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  /*background: rgba( 0, 0, 0, 0.5);*/
   width: 50%;
   height: 640px;
   position: absolute;
   z-index: 3;
 }
 
-/* line 530, sass/content.scss */
+/* line 540, sass/content.scss */
 div.login {
   display: none;
 }
@@ -1113,13 +1123,12 @@ footer nav {
     color: #FFF;
   }
   /* line 351, sass/mobile/content_mob.scss */
-  #section_quatro article div:last-child {
-    /*float: left;*/
-    display: none;
+  #section_quatro article div:first-child {
+    float: left;
   }
 
   /*CONTATO*/
-  /* line 361, sass/mobile/content_mob.scss */
+  /* line 360, sass/mobile/content_mob.scss */
   #section_cinco {
     height: auto !important;
     width: 100%;
@@ -1128,7 +1137,7 @@ footer nav {
     background-position: top;
     font-family: Roboto Light;
   }
-  /* line 373, sass/mobile/content_mob.scss */
+  /* line 372, sass/mobile/content_mob.scss */
   #section_cinco > div {
     width: 100%;
     height: 640px !important;
@@ -1136,7 +1145,7 @@ footer nav {
     /*INFORMAÇÕES*/
     /*MAPS*/
   }
-  /* line 379, sass/mobile/content_mob.scss */
+  /* line 378, sass/mobile/content_mob.scss */
   #section_cinco > div:first-child {
     float: none;
     position: relative;
@@ -1144,34 +1153,34 @@ footer nav {
     background-repeat: no-repeat;
     background-position: top;
   }
-  /* line 388, sass/mobile/content_mob.scss */
+  /* line 387, sass/mobile/content_mob.scss */
   #section_cinco > div:first-child ul {
     height: auto;
     /*float: none;*/
   }
-  /* line 392, sass/mobile/content_mob.scss */
+  /* line 391, sass/mobile/content_mob.scss */
   #section_cinco > div:first-child ul li {
     height: 25%;
     padding-top: 15%;
     color: #FFF;
     /*text-align: center;*/
   }
-  /* line 399, sass/mobile/content_mob.scss */
+  /* line 398, sass/mobile/content_mob.scss */
   #section_cinco > div:first-child ul li:first-child {
     background: rgba(0, 0, 0, 0);
     /*background: rgba( 0, 0, 0, 1);*/
   }
-  /* line 404, sass/mobile/content_mob.scss */
+  /* line 403, sass/mobile/content_mob.scss */
   #section_cinco > div:first-child ul li:nth-child(2) {
     background: rgba(0, 0, 0, 0);
     /*background: rgba( 0, 0, 0, 1);*/
   }
-  /* line 409, sass/mobile/content_mob.scss */
+  /* line 408, sass/mobile/content_mob.scss */
   #section_cinco > div:first-child ul li:last-child {
     background: rgba(0, 0, 0, 0);
     /*background: rgba( 0, 0, 0, 1);*/
   }
-  /* line 414, sass/mobile/content_mob.scss */
+  /* line 413, sass/mobile/content_mob.scss */
   #section_cinco > div:first-child ul li h1 {
     margin-bottom: 10px;
     background-image: url(../style/images/borda.png);
@@ -1183,18 +1192,18 @@ footer nav {
     text-align: center;
     font-family: Roboto Bold;
   }
-  /* line 433, sass/mobile/content_mob.scss */
+  /* line 432, sass/mobile/content_mob.scss */
   #section_cinco > div:first-child ul li p {
     margin-left: 70px;
     padding-left: 50px;
   }
-  /* line 439, sass/mobile/content_mob.scss */
+  /* line 438, sass/mobile/content_mob.scss */
   #section_cinco > div:first-child ul li #cont {
     background-image: url(../style/images/contato.png);
     background-repeat: no-repeat;
     line-height: 2em;
   }
-  /* line 447, sass/mobile/content_mob.scss */
+  /* line 446, sass/mobile/content_mob.scss */
   #section_cinco > div:first-child ul li #tel {
     background-image: url(../style/images/cel.png);
     background-repeat: no-repeat;
@@ -1202,7 +1211,7 @@ footer nav {
     padding-left: 65px;
     margin-left: 80px;
   }
-  /* line 457, sass/mobile/content_mob.scss */
+  /* line 456, sass/mobile/content_mob.scss */
   #section_cinco > div:first-child ul li #end {
     background-image: url(../style/images/position.png);
     background-repeat: no-repeat;
@@ -1212,18 +1221,18 @@ footer nav {
     padding-top: 7px;
     margin-left: 70px;
   }
-  /* line 473, sass/mobile/content_mob.scss */
+  /* line 472, sass/mobile/content_mob.scss */
   #section_cinco > div:nth-child(2) {
     height: 320px !important;
     background: #AAA;
   }
-  /* line 476, sass/mobile/content_mob.scss */
+  /* line 475, sass/mobile/content_mob.scss */
   #section_cinco > div:nth-child(2) iframe {
     width: 100%;
     height: 100%;
   }
 
-  /* line 484, sass/mobile/content_mob.scss */
+  /* line 483, sass/mobile/content_mob.scss */
   #masc-block {
     display: none;
     width: 100% !important;
@@ -1271,9 +1280,9 @@ footer nav {
 /* MOVIMENTO BT-SCROLL */
 /* line 2, sass/mobile/action.scss */
 img[title='QUADRO'] {
-  -webkit-animation: moveLousa 5s infinite linear;
+  /*-webkit-animation: moveLousa 5s infinite linear;*/
   /* Chrome, Safari, Opera */
-  animation: moveLousa 5s infinite linear;
+  /*animation: moveLousa 5s infinite linear;*/
 }
 
 /* Chrome, Safari, Opera */
@@ -1348,12 +1357,6 @@ img[title='QUADRO'] {
 /* line 49, sass/mobile/action.scss */
 .header {
   padding: 5px 0;
-  -webkit-transition: padding ease 1s;
-  transition: padding ease 1s;
-}
-/* line 58, sass/mobile/action.scss */
-.header > div:first-child img {
-  width: 90%;
   -webkit-transition: padding ease 1s;
   transition: padding ease 1s;
 }
