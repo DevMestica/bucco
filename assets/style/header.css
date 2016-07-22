@@ -62,18 +62,29 @@ header article div:nth-child(3) li:hover {
 }
 /* line 65, sass/header.scss */
 header article div:nth-child(4) {
+  visibility: hidden;
   padding: 0 20px;
   color: #FFF;
   width: 390px;
 }
-/* line 70, sass/header.scss */
+/* line 71, sass/header.scss */
+header article div:nth-child(4) a {
+  color: #FFF;
+  font-family: Nephrite-Book;
+  font-size: 16px;
+}
+/* line 78, sass/header.scss */
+header article div:nth-child(4) a:hover {
+  color: #c49a6c;
+}
+/* line 83, sass/header.scss */
 header article div:nth-child(4) p {
   text-transform: uppercase;
   font-family: Nephrite-Book;
   font-size: 25.76px;
   margin-bottom: 5px;
 }
-/* line 81, sass/header.scss */
+/* line 94, sass/header.scss */
 header article div:nth-child(4) form input {
   color: #FFF;
   height: 100%;
@@ -85,7 +96,7 @@ header article div:nth-child(4) form input {
   font-family: Nephrite-Italic;
   font-size: 20px;
 }
-/* line 94, sass/header.scss */
+/* line 107, sass/header.scss */
 header article div:nth-child(4) form input[type='submit'] {
   cursor: pointer;
   text-align: center;
@@ -97,15 +108,15 @@ header article div:nth-child(4) form input[type='submit'] {
   font-family: Nephrite-Bold;
   font-size: 20px;
 }
-/* line 107, sass/header.scss */
+/* line 120, sass/header.scss */
 header article div:nth-child(4) form input[type='submit']:hover {
   background: #FFF;
 }
-/* line 115, sass/header.scss */
+/* line 128, sass/header.scss */
 header article div #nav-social ul {
   display: inline-block;
 }
-/* line 117, sass/header.scss */
+/* line 130, sass/header.scss */
 header article div #nav-social ul li {
   margin: 0 1px;
 }

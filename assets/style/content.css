@@ -34,12 +34,13 @@ section article {
   top: 0;
   left: 0;
   z-index: 2;
+  opacity: 0.5;
 }
-/* line 40, sass/content.scss */
+/* line 41, sass/content.scss */
 #section_um > div:nth-child(2) #meuSlider {
   height: 100%;
 }
-/* line 44, sass/content.scss */
+/* line 45, sass/content.scss */
 #section_um > div > img {
   position: absolute;
   bottom: 5%;
@@ -47,36 +48,36 @@ section article {
   z-index: 3;
 }
 
-/* line 52, sass/content.scss */
+/* line 53, sass/content.scss */
 .carousel-inner {
   height: 100%;
 }
 
 /*BIO*/
-/* line 58, sass/content.scss */
+/* line 59, sass/content.scss */
 #section_dois {
   background-image: url(images/sec_dois.png);
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 65, sass/content.scss */
+/* line 66, sass/content.scss */
 #section_dois article {
   position: relative;
   /*background: #333;*/
 }
-/* line 69, sass/content.scss */
+/* line 70, sass/content.scss */
 #section_dois article div {
   display: inline-block;
   margin-top: 5%;
 }
-/* line 76, sass/content.scss */
+/* line 77, sass/content.scss */
 #section_dois article div:first-child {
   position: relative;
   width: 49%;
   /*background: #AAA;*/
   text-align: right;
 }
-/* line 83, sass/content.scss */
+/* line 84, sass/content.scss */
 #section_dois article div:last-child {
   width: 600px;
   /*background: #FCA;*/
@@ -88,7 +89,7 @@ section article {
   -webkit-transform: rotate(4deg);
   transform: rotate(4deg);
 }
-/* line 95, sass/content.scss */
+/* line 96, sass/content.scss */
 #section_dois article div:last-child h1 {
   width: 80%;
   min-width: 500px;
@@ -98,7 +99,7 @@ section article {
   color: #c49a6c;
   text-transform: uppercase;
 }
-/* line 107, sass/content.scss */
+/* line 108, sass/content.scss */
 #section_dois article div:last-child p {
   width: 80%;
   min-width: 500px;
@@ -107,15 +108,15 @@ section article {
   font-size: 1.4em;
   margin-top: 20px;
 }
-/* line 118, sass/content.scss */
+/* line 119, sass/content.scss */
 #section_dois article div:last-child .pgf-meio {
   min-width: auto;
   width: 45% !important;
 }
-/* line 123, sass/content.scss */
+/* line 124, sass/content.scss */
 #section_dois article div:last-child > img {
   opacity: 0;
-  width: 330px;
+  width: 550px;
   position: absolute;
   right: -350px;
   bottom: -320px;

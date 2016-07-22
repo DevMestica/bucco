@@ -110,16 +110,17 @@ sliderhome{
 
             .pgf-meio{
                 min-width: auto !important;
-                width: 47% !important;
+                width: 90% !important;
             }
 
             >img{
-                width: 47%;
+                width: 100%;
                 min-width: 150px;
                 position: absolute;
-                right: 5px;
-                bottom: -50px;
+                right: -50px;
+                bottom: -180px;
                 opacity: 1;
+                z-index: -1;
             }
         }
     }
@@ -347,8 +348,9 @@ sliderhome{
                 }
             }
 
-            &:first-child{
-                float: left;
+            &:last-child{
+                /*float: left;*/
+                display: none;
             }
         }
     }
@@ -481,4 +483,6 @@ sliderhome{
 
 #masc-block{
     display: none;
+    width: 100% !important;
+    height: 320px !important;
 }

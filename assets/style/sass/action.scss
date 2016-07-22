@@ -50,16 +50,4 @@ img[title='QUADRO'] {
     padding: 5px 0;
     -webkit-transition: padding ease 1s ;
     transition: padding ease 1s ;
-
-    >div{
-
-        &:first-child{
-
-            img{
-                width: 90%;
-                -webkit-transition: padding ease 1s ;
-                transition: padding ease 1s ;
-            }
-        }
-    }
 }

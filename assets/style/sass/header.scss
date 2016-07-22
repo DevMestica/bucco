@@ -63,9 +63,22 @@ header{
             }
             /*CADASTRO*/
             &:nth-child(4){
+			visibility: hidden;
                 padding: 0 20px;
                 color: #FFF;
                 width: 390px;
+
+                a{
+                    color: #FFF;
+                    font:{
+                        family: Nephrite-Book;
+                        size: 16px;
+                    }
+                    
+                    &:hover{
+                        color: $dourado;
+                    }
+                }
 
                 p{
                     text-transform: uppercase;

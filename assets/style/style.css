@@ -118,18 +118,29 @@ header article div:nth-child(3) li:hover {
 }
 /* line 65, sass/header.scss */
 header article div:nth-child(4) {
+  visibility: hidden;
   padding: 0 20px;
   color: #FFF;
   width: 390px;
 }
-/* line 70, sass/header.scss */
+/* line 71, sass/header.scss */
+header article div:nth-child(4) a {
+  color: #FFF;
+  font-family: Nephrite-Book;
+  font-size: 16px;
+}
+/* line 78, sass/header.scss */
+header article div:nth-child(4) a:hover {
+  color: #c49a6c;
+}
+/* line 83, sass/header.scss */
 header article div:nth-child(4) p {
   text-transform: uppercase;
   font-family: Nephrite-Book;
   font-size: 25.76px;
   margin-bottom: 5px;
 }
-/* line 81, sass/header.scss */
+/* line 94, sass/header.scss */
 header article div:nth-child(4) form input {
   color: #FFF;
   height: 100%;
@@ -141,7 +152,7 @@ header article div:nth-child(4) form input {
   font-family: Nephrite-Italic;
   font-size: 20px;
 }
-/* line 94, sass/header.scss */
+/* line 107, sass/header.scss */
 header article div:nth-child(4) form input[type='submit'] {
   cursor: pointer;
   text-align: center;
@@ -153,15 +164,15 @@ header article div:nth-child(4) form input[type='submit'] {
   font-family: Nephrite-Bold;
   font-size: 20px;
 }
-/* line 107, sass/header.scss */
+/* line 120, sass/header.scss */
 header article div:nth-child(4) form input[type='submit']:hover {
   background: #FFF;
 }
-/* line 115, sass/header.scss */
+/* line 128, sass/header.scss */
 header article div #nav-social ul {
   display: inline-block;
 }
-/* line 117, sass/header.scss */
+/* line 130, sass/header.scss */
 header article div #nav-social ul li {
   margin: 0 1px;
 }
@@ -202,12 +213,13 @@ section article {
   top: 0;
   left: 0;
   z-index: 2;
+  opacity: 0.5;
 }
-/* line 40, sass/content.scss */
+/* line 41, sass/content.scss */
 #section_um > div:nth-child(2) #meuSlider {
   height: 100%;
 }
-/* line 44, sass/content.scss */
+/* line 45, sass/content.scss */
 #section_um > div > img {
   position: absolute;
   bottom: 5%;
@@ -215,36 +227,36 @@ section article {
   z-index: 3;
 }
 
-/* line 52, sass/content.scss */
+/* line 53, sass/content.scss */
 .carousel-inner {
   height: 100%;
 }
 
 /*BIO*/
-/* line 58, sass/content.scss */
+/* line 59, sass/content.scss */
 #section_dois {
   background-image: url(images/sec_dois.png);
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 65, sass/content.scss */
+/* line 66, sass/content.scss */
 #section_dois article {
   position: relative;
   /*background: #333;*/
 }
-/* line 69, sass/content.scss */
+/* line 70, sass/content.scss */
 #section_dois article div {
   display: inline-block;
   margin-top: 5%;
 }
-/* line 76, sass/content.scss */
+/* line 77, sass/content.scss */
 #section_dois article div:first-child {
   position: relative;
   width: 49%;
   /*background: #AAA;*/
   text-align: right;
 }
-/* line 83, sass/content.scss */
+/* line 84, sass/content.scss */
 #section_dois article div:last-child {
   width: 600px;
   /*background: #FCA;*/
@@ -256,7 +268,7 @@ section article {
   -webkit-transform: rotate(4deg);
   transform: rotate(4deg);
 }
-/* line 95, sass/content.scss */
+/* line 96, sass/content.scss */
 #section_dois article div:last-child h1 {
   width: 80%;
   min-width: 500px;
@@ -266,7 +278,7 @@ section article {
   color: #c49a6c;
   text-transform: uppercase;
 }
-/* line 107, sass/content.scss */
+/* line 108, sass/content.scss */
 #section_dois article div:last-child p {
   width: 80%;
   min-width: 500px;
@@ -275,15 +287,15 @@ section article {
   font-size: 1.4em;
   margin-top: 20px;
 }
-/* line 118, sass/content.scss */
+/* line 119, sass/content.scss */
 #section_dois article div:last-child .pgf-meio {
   min-width: auto;
   width: 45% !important;
 }
-/* line 123, sass/content.scss */
+/* line 124, sass/content.scss */
 #section_dois article div:last-child > img {
   opacity: 0;
-  width: 330px;
+  width: 550px;
   position: absolute;
   right: -350px;
   bottom: -320px;
@@ -549,17 +561,17 @@ section article {
 }
 /* line 437, sass/content.scss */
 #section_cinco > div:first-child ul li:first-child {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0);
   /*background: rgba( 0, 0, 0, 1);*/
 }
 /* line 442, sass/content.scss */
 #section_cinco > div:first-child ul li:nth-child(2) {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0);
   /*background: rgba( 0, 0, 0, 1);*/
 }
 /* line 447, sass/content.scss */
 #section_cinco > div:first-child ul li:last-child {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0);
   /*background: rgba( 0, 0, 0, 1);*/
 }
 /* line 452, sass/content.scss */
@@ -615,7 +627,7 @@ section article {
 }
 /* line 521, sass/content.scss */
 #section_cinco #masc-block {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0);
   width: 50%;
   height: 640px;
   position: absolute;
@@ -897,20 +909,21 @@ footer nav {
   /* line 111, sass/mobile/content_mob.scss */
   #section_dois article #info .pgf-meio {
     min-width: auto !important;
-    width: 47% !important;
+    width: 90% !important;
   }
   /* line 116, sass/mobile/content_mob.scss */
   #section_dois article #info > img {
-    width: 47%;
+    width: 100%;
     min-width: 150px;
     position: absolute;
-    right: 5px;
-    bottom: -50px;
+    right: -50px;
+    bottom: -180px;
     opacity: 1;
+    z-index: -1;
   }
 
   /*Cardápio*/
-  /* line 129, sass/mobile/content_mob.scss */
+  /* line 130, sass/mobile/content_mob.scss */
   #section_tres {
     padding-bottom: 7%;
     background-color: #000;
@@ -918,7 +931,7 @@ footer nav {
     background-repeat: no-repeat;
     background-position: center top;
   }
-  /* line 140, sass/mobile/content_mob.scss */
+  /* line 141, sass/mobile/content_mob.scss */
   #section_tres article > div {
     width: 100% !important;
     margin: auto;
@@ -927,7 +940,7 @@ footer nav {
     -webkit-transform: none;
     transform: none;
   }
-  /* line 148, sass/mobile/content_mob.scss */
+  /* line 149, sass/mobile/content_mob.scss */
   #section_tres article > div h1 {
     width: 100% !important;
     margin: auto;
@@ -936,11 +949,11 @@ footer nav {
     font-family: Silent-Regular;
     font-size: 3em !important;
   }
-  /* line 159, sass/mobile/content_mob.scss */
+  /* line 160, sass/mobile/content_mob.scss */
   #section_tres article > div h1:hover {
     color: #fff;
   }
-  /* line 164, sass/mobile/content_mob.scss */
+  /* line 165, sass/mobile/content_mob.scss */
   #section_tres article > div ul {
     margin-top: 0px;
     width: 98% !important;
@@ -948,7 +961,7 @@ footer nav {
     padding-left: 1%;
     padding-top: 3%;
   }
-  /* line 174, sass/mobile/content_mob.scss */
+  /* line 175, sass/mobile/content_mob.scss */
   #section_tres article > div ul li {
     position: relative;
     font-family: Roboto Italic;
@@ -959,7 +972,7 @@ footer nav {
     background-position: 2% 5%;
     background-size: 15px;
   }
-  /* line 190, sass/mobile/content_mob.scss */
+  /* line 191, sass/mobile/content_mob.scss */
   #section_tres article > div ul li h2 {
     color: #c49a6c;
     text-transform: uppercase;
@@ -967,48 +980,48 @@ footer nav {
     font-family: Roboto Bold;
     font-size: 1em;
   }
-  /* line 204, sass/mobile/content_mob.scss */
+  /* line 205, sass/mobile/content_mob.scss */
   #section_tres #pasta {
     padding-top: 110%;
     padding-left: 0;
   }
-  /* line 207, sass/mobile/content_mob.scss */
+  /* line 208, sass/mobile/content_mob.scss */
   #section_tres #pasta ul {
     padding-top: 5%;
     display: none;
   }
-  /* line 213, sass/mobile/content_mob.scss */
+  /* line 214, sass/mobile/content_mob.scss */
   #section_tres #burger {
     padding-left: 0;
   }
-  /* line 215, sass/mobile/content_mob.scss */
+  /* line 216, sass/mobile/content_mob.scss */
   #section_tres #burger ul {
     display: none;
   }
-  /* line 220, sass/mobile/content_mob.scss */
+  /* line 221, sass/mobile/content_mob.scss */
   #section_tres #grill {
     /*width: 50%;*/
     margin: auto;
   }
-  /* line 223, sass/mobile/content_mob.scss */
+  /* line 224, sass/mobile/content_mob.scss */
   #section_tres #grill div {
     display: none;
     padding-top: 0;
     margin-top: 0px;
     border: none;
   }
-  /* line 229, sass/mobile/content_mob.scss */
+  /* line 230, sass/mobile/content_mob.scss */
   #section_tres #grill div ul {
     display: inline-table;
     border: none;
   }
-  /* line 236, sass/mobile/content_mob.scss */
+  /* line 237, sass/mobile/content_mob.scss */
   #section_tres #card {
     display: none;
   }
 
   /*PARCEIROS*/
-  /* line 242, sass/mobile/content_mob.scss */
+  /* line 243, sass/mobile/content_mob.scss */
   #section_quatro {
     height: auto;
     /*min-height: 560px;*/
@@ -1021,7 +1034,7 @@ footer nav {
     background-position: center 75%;
     background-size: cover;
   }
-  /* line 256, sass/mobile/content_mob.scss */
+  /* line 257, sass/mobile/content_mob.scss */
   #section_quatro article {
     vertical-align: central;
     /*width: 720 !important;*/
@@ -1029,7 +1042,7 @@ footer nav {
             top: 0;*/
     /*margin-left: -320px;*/
   }
-  /* line 263, sass/mobile/content_mob.scss */
+  /* line 264, sass/mobile/content_mob.scss */
   #section_quatro article div {
     width: 50%;
     min-width: 310px;
@@ -1040,7 +1053,7 @@ footer nav {
                     top: 10%;*/
     margin-bottom: 10%;
   }
-  /* line 275, sass/mobile/content_mob.scss */
+  /* line 276, sass/mobile/content_mob.scss */
   #section_quatro article div h1 {
     margin: auto;
     color: #FFF;
@@ -1060,7 +1073,7 @@ footer nav {
     /* Safari */
     transform: rotate(-15deg);
   }
-  /* line 299, sass/mobile/content_mob.scss */
+  /* line 300, sass/mobile/content_mob.scss */
   #section_quatro article div p {
     color: #FFF;
     line-height: 0.8em;
@@ -1068,15 +1081,15 @@ footer nav {
     font-family: Volvo-Regular;
     font-size: 2.5em;
   }
-  /* line 310, sass/mobile/content_mob.scss */
+  /* line 311, sass/mobile/content_mob.scss */
   #section_quatro article div p span {
     color: #c49a6c;
   }
-  /* line 315, sass/mobile/content_mob.scss */
+  /* line 316, sass/mobile/content_mob.scss */
   #section_quatro article div form {
     margin-top: 10px;
   }
-  /* line 318, sass/mobile/content_mob.scss */
+  /* line 319, sass/mobile/content_mob.scss */
   #section_quatro article div form input[type='tel'], #section_quatro article div form input[type='email'] {
     width: 80%;
     padding: 0px 10px;
@@ -1084,7 +1097,7 @@ footer nav {
     font-family: Roboto Light;
     font-size: 1.2em;
   }
-  /* line 328, sass/mobile/content_mob.scss */
+  /* line 329, sass/mobile/content_mob.scss */
   #section_quatro article div form input[type='submit'] {
     padding: 0px 10px;
     height: 2.5em;
@@ -1095,17 +1108,18 @@ footer nav {
     font-family: Roboto Bold;
     font-size: 1.2em;
   }
-  /* line 344, sass/mobile/content_mob.scss */
+  /* line 345, sass/mobile/content_mob.scss */
   #section_quatro article div form input[type='submit']:hover {
     color: #FFF;
   }
-  /* line 350, sass/mobile/content_mob.scss */
-  #section_quatro article div:first-child {
-    float: left;
+  /* line 351, sass/mobile/content_mob.scss */
+  #section_quatro article div:last-child {
+    /*float: left;*/
+    display: none;
   }
 
   /*CONTATO*/
-  /* line 359, sass/mobile/content_mob.scss */
+  /* line 361, sass/mobile/content_mob.scss */
   #section_cinco {
     height: auto !important;
     width: 100%;
@@ -1114,7 +1128,7 @@ footer nav {
     background-position: top;
     font-family: Roboto Light;
   }
-  /* line 371, sass/mobile/content_mob.scss */
+  /* line 373, sass/mobile/content_mob.scss */
   #section_cinco > div {
     width: 100%;
     height: 640px !important;
@@ -1122,7 +1136,7 @@ footer nav {
     /*INFORMAÇÕES*/
     /*MAPS*/
   }
-  /* line 377, sass/mobile/content_mob.scss */
+  /* line 379, sass/mobile/content_mob.scss */
   #section_cinco > div:first-child {
     float: none;
     position: relative;
@@ -1130,34 +1144,34 @@ footer nav {
     background-repeat: no-repeat;
     background-position: top;
   }
-  /* line 386, sass/mobile/content_mob.scss */
+  /* line 388, sass/mobile/content_mob.scss */
   #section_cinco > div:first-child ul {
     height: auto;
     /*float: none;*/
   }
-  /* line 390, sass/mobile/content_mob.scss */
+  /* line 392, sass/mobile/content_mob.scss */
   #section_cinco > div:first-child ul li {
     height: 25%;
     padding-top: 15%;
     color: #FFF;
     /*text-align: center;*/
   }
-  /* line 397, sass/mobile/content_mob.scss */
+  /* line 399, sass/mobile/content_mob.scss */
   #section_cinco > div:first-child ul li:first-child {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0);
     /*background: rgba( 0, 0, 0, 1);*/
   }
-  /* line 402, sass/mobile/content_mob.scss */
+  /* line 404, sass/mobile/content_mob.scss */
   #section_cinco > div:first-child ul li:nth-child(2) {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0);
     /*background: rgba( 0, 0, 0, 1);*/
   }
-  /* line 407, sass/mobile/content_mob.scss */
+  /* line 409, sass/mobile/content_mob.scss */
   #section_cinco > div:first-child ul li:last-child {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0);
     /*background: rgba( 0, 0, 0, 1);*/
   }
-  /* line 412, sass/mobile/content_mob.scss */
+  /* line 414, sass/mobile/content_mob.scss */
   #section_cinco > div:first-child ul li h1 {
     margin-bottom: 10px;
     background-image: url(../style/images/borda.png);
@@ -1169,18 +1183,18 @@ footer nav {
     text-align: center;
     font-family: Roboto Bold;
   }
-  /* line 431, sass/mobile/content_mob.scss */
+  /* line 433, sass/mobile/content_mob.scss */
   #section_cinco > div:first-child ul li p {
     margin-left: 70px;
     padding-left: 50px;
   }
-  /* line 437, sass/mobile/content_mob.scss */
+  /* line 439, sass/mobile/content_mob.scss */
   #section_cinco > div:first-child ul li #cont {
     background-image: url(../style/images/contato.png);
     background-repeat: no-repeat;
     line-height: 2em;
   }
-  /* line 445, sass/mobile/content_mob.scss */
+  /* line 447, sass/mobile/content_mob.scss */
   #section_cinco > div:first-child ul li #tel {
     background-image: url(../style/images/cel.png);
     background-repeat: no-repeat;
@@ -1188,7 +1202,7 @@ footer nav {
     padding-left: 65px;
     margin-left: 80px;
   }
-  /* line 455, sass/mobile/content_mob.scss */
+  /* line 457, sass/mobile/content_mob.scss */
   #section_cinco > div:first-child ul li #end {
     background-image: url(../style/images/position.png);
     background-repeat: no-repeat;
@@ -1198,19 +1212,20 @@ footer nav {
     padding-top: 7px;
     margin-left: 70px;
   }
-  /* line 471, sass/mobile/content_mob.scss */
+  /* line 473, sass/mobile/content_mob.scss */
   #section_cinco > div:nth-child(2) {
     height: 320px !important;
     background: #AAA;
   }
-  /* line 474, sass/mobile/content_mob.scss */
+  /* line 476, sass/mobile/content_mob.scss */
   #section_cinco > div:nth-child(2) iframe {
     width: 100%;
     height: 100%;
   }
 
-  /* line 482, sass/mobile/content_mob.scss */
+  /* line 484, sass/mobile/content_mob.scss */
   #masc-block {
+    display: none;
     width: 100% !important;
     height: 320px !important;
   }

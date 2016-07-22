@@ -9,10 +9,10 @@ $(document).ready(function () {
             if ($(this).scrollTop() >= ($(secaoDois).offset().top - 200)) {
 //            alert(secaoDois);
                 $('[title=POTEFRANGO]').css({
-                    "transition": "transform 2s ease-in-out, opacity 2s ease-in-out",
-                    "-o-transition": "transform 2s ease-in-out, opacity 2s ease-in-out",
-                    "-webkit-transition": "transform 2s ease-in-out, opacity 2s ease-in-out",
-                    "-moz-transition": "transform 2s ease-in-out, opacity 2s ease-in-out",
+                    "transition": "transform 1s ease-in-out, opacity 2s ease-in-out",
+                    "-o-transition": "transform 1s ease-in-out, opacity 2s ease-in-out",
+                    "-webkit-transition": "transform 1s ease-in-out, opacity 2s ease-in-out",
+                    "-moz-transition": "transform 1s ease-in-out, opacity 2s ease-in-out",
                     "transform": "translateX(-370px) translateY(0px)", "opacity": "1"
                 });
             } else {
